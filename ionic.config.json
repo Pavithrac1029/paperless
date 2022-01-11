@@ -1,0 +1,7 @@
+{
+  "name": "p2d",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
