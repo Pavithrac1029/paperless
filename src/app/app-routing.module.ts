@@ -11,6 +11,10 @@ const routes: Routes = [
     redirectTo: 'login',
     pathMatch: 'full'
   },
+  {
+    path: 'otp-screen',
+    loadChildren: () => import('./otp-screen/otp-screen.module').then( m => m.OtpScreenPageModule)
+  },
  
 ];
 
