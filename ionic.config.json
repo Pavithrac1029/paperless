@@ -1,7 +1,8 @@
 {
   "name": "p2d",
   "integrations": {
-    "capacitor": {}
+    "capacitor": {},
+    "cordova": {}
   },
   "type": "angular"
 }
