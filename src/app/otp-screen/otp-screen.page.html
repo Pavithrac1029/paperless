@@ -1,82 +1,65 @@
-
-
-<ion-content>
+<ion-content class="bg">
 
 
 
- <div class="row>">
-  <img src="../../assets/icon/back.svg" style="position: absolute;margin-top: 5%;margin-left: 2%;">
-  </div>
-
-
-<div class="row paperless">
-  <h1>
-    Hello Aswin !</h1>
-
-    <h1
-    style="color: #153D73;margin-top: 50%;margin-left:1%;">
-    Code is sent</h1>
-
-    
-  <h3
-  >
-  to +91 1234567890</h3>
-
-    </div>
-
-    
+  <div class="row>">
+   <img src="../../assets/icon/back.svg" style="position: absolute;margin-top: 5%;margin-left: 2%;" (click)="back()">
+   </div>
  
+ 
+ <div class="row paperless">
+   <h1>
+     Hello Aswin !</h1>
+ 
+     <h1
+     style="color: #153D73;margin-top: 50%;margin-left:1%;">
+     Code is sent</h1>
+ 
+     
+   <h3
+   >
+   to +91 1234567890</h3>
+ 
+     </div>
+ 
+     
+  
+ 
+  
+ 
+     <div style="margin-top: 90%;position: absolute;" class="ion-text-center">
+     <ion-row >
+       <ion-col>
+        <ion-input class="otp" #otp1 required="true" maxLength="1" >
+        </ion-input>
+        <ion-input class="otp" #otp2 required="true" maxLength="1" >
+        </ion-input>
+        <ion-input class="otp" #otp3 required="true" maxLength="1" >
+        </ion-input>
+   
+        <ion-input class="otp" #otp4 required="true" maxLength="1">
+       </ion-input>
+   
+       <ion-input class="otp" #otp5  required="true" maxLength="1" >
+       </ion-input>
+   
+       <ion-input class="otp" #otp6  required="true" maxLength="1" >
+       </ion-input>
+   
+       </ion-col>
+     </ion-row>
+  
+   </div>
+ 
+ 
+   <div class="btn">
+     <img src="../../assets/icon/Group 29.svg"   >
+   </div>
+   
+   
+ 
+      <h6 class="resend">Resend OTP</h6>
 
  
-
-    <div style="margin-top: 90%;position: absolute;" class="ion-text-center">
-    <ion-row >
-      <ion-col>
-       <ion-input class="x" #otp1 required="true" maxLength="1" >
-       </ion-input>
-       <ion-input class="x" #otp2 required="true" maxLength="1" >
-       </ion-input>
-       <ion-input class="x" #otp3 required="true" maxLength="1" >
-       </ion-input>
-  
-       <ion-input class="x" #otp4 required="true" maxLength="1">
-      </ion-input>
-  
-      <ion-input class="x" #otp5  required="true" maxLength="1" >
-      </ion-input>
-  
-      <ion-input class="x" #otp6  required="true" maxLength="1" >
-      </ion-input>
-  
-      </ion-col>
-    </ion-row>
  
-  </div>
-
-
-  <!-- <ion-input type="tel" pattern="[0-9]*" maxlength="1" style="position: absolute;margin-top: 386px;margin-left: 34px;padding-top: 20px;padding-bottom: 12px;width: 12%;border: black;
-background-color: #FFFFFF;box-shadow: inset 0px 3px 6px #00000029;height: 6%;border-radius: 10px;" required>
-  </ion-input>
-  <ion-input type="tel" pattern="[0-9]*" maxlength="1" style="position: absolute;margin-top: 386px;margin-left: 86px;padding-top: 20px;padding-bottom: 12px;width: 12%;border: black;
-background-color: #FFFFFF;box-shadow: inset 0px 3px 6px #00000029;height: 6%;border-radius: 10px;" required>
-  </ion-input>
-  <ion-input type="tel" pattern="[0-9]*" maxlength="1" style="position: absolute;margin-top: 386px;margin-left: 139px;padding-top: 20px;padding-bottom: 12px;width: 12%;border: black;
-background-color: #FFFFFF;box-shadow: inset 0px 3px 6px #00000029;height: 6%;border-radius: 10px;" required>
-  </ion-input>
-  <ion-input type="tel" pattern="[0-9]*" maxlength="1" style="position: absolute;margin-top: 386px;margin-left: 192px;padding-top: 20px;padding-bottom: 12px;width: 12%;border: black;
-background-color: #FFFFFF;box-shadow: inset 0px 3px 6px #00000029;height: 6%;border-radius: 10px;" required>
-  </ion-input>
-  <ion-input type="tel" pattern="[0-9]*" maxlength="1" style="position: absolute;margin-top: 386px;margin-left: 245px;padding-top: 20px;padding-bottom: 12px;width: 12%;border: black;
-  background-color: #FFFFFF;box-shadow: inset 0px 3px 6px #00000029;height: 6%;border-radius: 10px;" required>
-  </ion-input>
-  <ion-input type="tel" pattern="[0-9]*" maxlength="1" style="position: absolute;margin-top: 386px;margin-left: 298px;padding-top: 20px;padding-bottom: 12px;width: 12%;border: black;
-background-color: #FFFFFF;box-shadow: inset 0px 3px 6px #00000029;height: 6%;border-radius: 10px;" required>
-  </ion-input> -->
-  <button
-    style="background: linear-gradient(#002173E6,#00217366);width: 79%;padding: 9px;margin-top: 458px;position: absolute;margin-left: 34px;color: white;;color: #D6D6D6;">Verify & Proceed</button>
-
-    <a><h6 style="font-family: DM Sans regular;font-size: 11px;position: absolute;margin-top: 510px;color: #FFFFFF;margin-left: 39%;text-decoration: underline;">Resend OTP</h6></a>
-  <img src="../../assets/icon/loginscreen.png" style="height: 100%;font-family: DM sans regular;">
-
-
-</ion-content>
+ </ion-content>

@@ -1,33 +1,21 @@
 import { Component, OnInit } from '@angular/core';
-
+import { Keyboard } from '@ionic-native/keyboard/ngx';
+import { NavController } from '@ionic/angular';
 @Component({
   selector: 'app-otp-screen',
   templateUrl: './otp-screen.page.html',
   styleUrls: ['./otp-screen.page.scss'],
+  providers: [Keyboard]
 })
 export class OtpScreenPage implements OnInit {
-  OTP: string = '';
-  constructor() {
+
+  constructor(public navctrl:NavController) {
     
    }
 
   ngOnInit() {
   }
-  otpController(event,next,prev, index){
-
-
-    if(index == 6) {
-      console.log("submit")
-    }
-    if(event.target.value.length < 1 && prev){
-      prev.setFocus()
-    }
-    else if(next && event.target.value.length>0){
-      next.setFocus();
-    }
-    else {
-     return 0;
-    } 
- }
-
+  back(){
+    this.navctrl.navigateRoot("/login")
+  }
 }
