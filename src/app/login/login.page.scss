@@ -1,9 +1,40 @@
-.bg{
-    // padding-bottom: 0 !important;
-    --background: url('../../assets/icon/loginscreen.png') no-repeat center !important;
-    // height: 100% !important;
-    // width: 100%;
-    // -webkit-background-size: cover;
-    //     -moz-background-size: cover;
-    //     background-size: cover;
-    }
+
+
+h1{
+    color: #27437A;
+    position: absolute;
+    margin-top: 70%;
+    font-size: 25pt;
+    margin-left: 9%;
+    font-family: DM Sans Regular;
+    font-weight: bold;
+}
+
+
+
+
+
+.btn1{
+    position: absolute;
+    margin-top: 98%;
+    margin-left: 7%;
+    width: 86%;
+    height: 6%;
+    padding-top: 9px;
+    padding-bottom: 12px;
+}
+// ion-button{
+//     // position: absolute;
+//     // margin-top: 98%;
+//     // margin-left: 7%;
+//     // width: 86%;
+//     // height: 6%;
+//     // padding-top: 9px;
+//     // padding-bottom: 12px;
+//     // background-image: linear-gradient(to right, red , yellow);
+//     // --background: linear-gradient(
+//     //     to right,
+//     //     #133378 0%,
+//     //     #2E5080 100%
+//     //   );
+// }
